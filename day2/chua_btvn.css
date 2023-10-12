@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.container{
+    background-color: hotpink;
+    padding: 10px 20px 10px;
+}
+.container img{
+    width: 200px;
+    margin-right: 200px;
+    vertical-align: top;
+    display: inline-block;
+}
+.container .item{
+    display: inline-block;
+    vertical-align: top;
+}
+.menu_item{
+    display: inline-block;
+    margin-left: 200px;
+    vertical-align: top;
+}
+.item{
+    padding: 20px;
+    display: inline-block;
+}
+.item:hover{
+    color: blue;
+    background-color: blueviolet;
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+    padding-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin-top: -10px; */
+}

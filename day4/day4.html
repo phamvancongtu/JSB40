@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* position: relative, absolute, fixed */
+      /* position: relative => Nội dung của thẻ có position là relative sẽ có thể
+        di chuyển xong quanh trang web mà ko làm ảnh hưởng đến vị trỉ những thẻ
+         liền kề nó
+
+         position: absolute => Tách ra khỏi dòng chảy của trang vào làm thay
+         đổi những vị trí các thẻ đằng sau nó
+
+      */
+      h1 {
+        position: relative;
+        /* top: 100px;
+        left: 50px;
+        margin-left: 50px; */
+        /* margin-top: 50px; */
+        /* padding-top: 100px; */
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+      }
+
+      .box1 {
+        background-color: red;
+        position: absolute;
+        /* left: 30px; */
+        z-index: 1;
+        top: 0;
+        right: 0;
+      }
+
+      .box2 {
+        background-color: green;
+        left: 50px;
+        position: absolute;
+        z-index: 3;
+        top:0;
+        left:0;
+      }
+
+      .box3 {
+        background-color: blue;
+        position: absolute;
+        left: 100px;
+        z-index: 2;
+        bottom:0;
+        left:0;
+      }
+      .box4{
+        background-color: black;
+        position: absolute;
+        /* left: 100px; */
+        z-index: 2;
+        bottom:0;
+        right:0;
+      }
+      .box5{
+        background-color: royalblue;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+      }
+
+      .container {
+        width: 400px;
+        height: 400px;
+        background-color: antiquewhite;
+        position: relative;
+        z-index: 2;
+      }
+      .menu{
+        position: fixed;
+        width:100%;
+        background-color: black;
+        height:100px;
+        z-index: 3;
+        color: antiquewhite;
+      }
+      body{
+        height: 2000px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <ul>
+          <li>sjnkjfdsfg</li>
+          <li>sjnkjfdsfg</li>
+      <li>sjnkjfdsfg</li>
+    </ul> -->
+    <!-- <h1>Nguyễn Danh Phương</h1>
+    <ul>
+      <li>sjnkjfdsfg</li>
+      <li>sjnkjfdsfg</li>
+      <li>sjnkjfdsfg</li>
+    </ul> -->
+    <div class="menu">d,nflk/ds</div>
+    <div class="container">
+      <h1>skjdfn</h1>
+      <div class="box box1">1</div>
+      <div class="box box2">2</div>
+      <div class="box box3">3</div>
+      <div class="box box4">4</div>
+      <div class="box box5">5</div>
+
+
+    </div>
+  </body>
+</html>
