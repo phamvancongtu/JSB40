@@ -21,6 +21,8 @@
     display: inline-block;
     margin-left: 200px;
     vertical-align: top;
+    position: fixed;
+    /* position:relative */
 }
 .item{
     padding: 20px;
@@ -34,4 +36,9 @@
     padding-top: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* margin-top: -10px; */
+}
+.icon1{
+    position: absolute;
+    right:0;
+    bottom:0;
 }
