@@ -1,0 +1,116 @@
+.img1{
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+} 
+.myfood{
+    display: inline-block;
+}  
+.mail{
+    display: inline-block;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.photo{
+    height:1000px;
+    width:305px;
+    align-items: center;
+    display: inline-block;
+    margin: 15px;
+}
+.detail{
+    align-items: center;
+    margin: 25px;
+}
+.del{
+    margin: 25px;
+}
+.food{
+    width: 100%;
+    height: 60%;
+}
+.head{
+    margin-left:50px ;
+}
+.inside{
+    margin-left:25px ;
+}
+.photo1{
+    height:1000px;
+    width:305px;
+    align-items: center;
+    display: inline-block;
+    margin: 15px;
+}
+.detail1{
+    align-items: center;
+    margin: 15px;
+}
+.del1{
+    margin: 25px;
+}
+.food1{
+    width: 100%;
+    height: 60%;
+}
+.head1{
+    margin-left:50px ;
+}
+.inside1{
+    margin-left:25px ;
+}
+.photo2{
+    height:1000px;
+    width:305px;
+    align-items: center;
+    display: inline-block;
+    margin: 15px;
+}
+.detail2{
+    align-items: center;
+    margin: 25px;
+}
+.del2{
+    margin: 25px;
+}
+.food2{
+    width: 100%;
+    height: 60%;
+}
+.head2{
+    margin-left:50px ;
+}
+.inside2{
+    margin-left:25px ;
+}
+.photo3{
+    height:1000px;
+    object-fit: cover;
+    width:305px;
+    align-items: center;
+    display: inline-block;
+    margin: 15px;
+}
+.detail3{
+    align-items: center;
+    margin: 25px;
+}
+.del3{
+    margin: 25px;
+}
+.food3{
+    width: 100%;
+    height: 60%;
+}
+.head3{
+    margin-left:50px ;
+}
+.inside3{
+    margin-left:25px ;
+}
+.thuc{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- transition: thuộc tính cần thay đổi, sô giây để thuộc tính đó thay đổi, kiểu thay đổi -->
+    <style>
+        #myBtn:hover {
+      background-color: rgb(109, 200, 109);
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+      #myBtn {
+        background-color: aliceblue;
+        width: 50px;
+        height: 50px;
+        /* border-radius: 0%; */
+        transition-property: background-color, width, height, border-radius;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+      }
+
+      .show_box {
+        height: 30px;
+        width: 90px;
+        background-color: red;
+        transition-property: height;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+        padding-right: 40px;
+        position: absolute;
+        left:-200px;
+        /* overflow:hidden; */
+      }
+
+      #myBtn:hover ~ .show_box {
+        /* height: 0px;
+        width: 0; */
+        transition-property:transform, height;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+        transform: translateX(200px);
+      }
+      .click_container{
+        width: 200px;
+        background-color: antiquewhite;
+        height: 100px;
+      }
+      #myCheckBox:checked ~ .box{
+        background-color: aquamarine;
+        transition-property: background-color;
+        transition-duration: 3s;
+        transition-timing-function: ease;
+
+      }
+      @media screen and (max-widtht: 800px) {
+        box2{
+          background-color: red;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button id="myBtn">Hover me</button>
+      <div class="show_box">I'm here !!!</div>
+      <p>sjgnkdng</p>
+    </div>
+
+    <div class="click_container">
+        <input type="checkbox" name="" id="myCheckBox">
+        <div class="box">My Box</div>
+        <a href="./trangmoi.html" target="_blank">day la trang moi</a>
+    </div>
+  </body>
+</html>

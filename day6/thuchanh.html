@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      h1 {
+        position: relative;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+      }
+
+      .box1 {
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: top 1s ease, left 1s ease, transform 1s ease;
+      }
+
+      .box5:hover ~ .box1{
+        transition: transform 2s ease, position 2s ease-in-out;
+        transition: top 1s ease, left 1s ease, transform 1s ease;
+        transform: translate(0%, 0%);
+        position: absolute ;
+        top: 0;
+        left: 0;
+      }
+      .box5:hover ~ .box2{
+        transition: top 1s ease, right 1s ease, transform 1s ease;
+        transform: translate(0%, 0%);
+        position: absolute ;
+        top: 0;
+        right: 0;
+      }
+      .box2 {
+        background-color: green;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        transition: top 1s ease, right 1s ease, transform 1s ease;
+      }
+
+      .box3 {
+        background-color: blue;
+        position: absolute;
+        bottom: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        transition: bottom 1s ease, left 1s ease, transform 1s ease;
+      }
+      .box5:hover ~ .box3{
+        transition: bottom 1s ease, left 1s ease, transform 1s ease;
+        transform: translate(0%, 0%);
+        position: absolute ;
+        bottom: 0;
+        left: 0;
+      }
+
+      .box4 {
+        background-color: rgb(120, 75, 82);
+        position: absolute;
+        z-index: 100;
+        bottom: 50%;
+        right: 50%;
+        transform: translate(50%, 50%);
+        transition: bottom 1s ease, right 1s ease, transform 1s ease;
+      }
+      .box5:hover ~ .box4{
+        transition: bottom 1s ease, right 1s ease, transform 1s ease;
+        transform: translate(0%, 0%);
+        position: absolute ;
+        bottom: 0;
+        right: 0;
+      }
+      .box5 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: aqua;
+        z-index: 200;
+      }
+
+      .container {
+        width: 400px;
+        height: 400px;
+        background-color: antiquewhite;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .menu {
+        position: fixed;
+        width: 100%;
+        color: white;
+        background-color: black;
+        z-index: 2;
+      }
+      body {
+        height: 2000px;
+      }
+      .box6 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: aqua;
+        z-index: 1;
+        transition:top 1s ease, transform 1s ease;
+      }
+      .box7 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: aqua;
+        z-index: 1;
+        transition: bottom 1s ease, right 1s ease, transform 1s ease;
+      }
+      .box8 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: aqua;
+        z-index: 1;
+        transition:right 1s ease, transform 1s ease;
+      }
+      .box9 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: aqua;
+        z-index: 1;
+        transition:left 1s ease, transform 1s ease;
+      }
+      .box5:hover ~ .box6{
+        transition: top 1s ease, right 1s ease, transform 1s ease;
+        transform: translate(-50%, 0%);
+        position: absolute ;
+        top: 0;
+      }
+      .box5:hover ~ .box7{
+        transition: bottom 1s ease, right 1s ease, transform 1s ease;
+        transform: translateX(-50%) translateY(100%);
+        position: absolute ;
+        bottom: 0;
+      }
+      .box5:hover ~ .box8{
+        transition:right 1s ease, transform 1s ease;
+        transform: translateX(100%) translateY(-50%);
+        position: absolute ;
+        right: 0;
+      }
+      .box5:hover ~ .box9{
+        transition:left 1s ease, transform 1s ease;
+        transform: translateX(0%) translateY(-50%);
+        position: absolute ;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <div class="box box5">5</div>
+      <div class="box box1">1</div>
+      <div class="box box2">2</div>
+      <div class="box box3">3</div>
+      <div class="box box4">4</div>
+      <div class="box box6">6</div> 
+      <div class="box box7">7</div>
+      <div class="box box8">8</div>
+      <div class="box box9">9</div>
+    </div>
+  </body>
+</html
