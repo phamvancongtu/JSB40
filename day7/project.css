@@ -44,17 +44,17 @@
   margin-right: 30px;
 }
 .menu_item1:hover {
-  background-color: white;
+  /* background-color: white; */
   color: black;
   text-decoration: underline;
 }
 .menu_item2:hover {
-  background-color: white;
+  /* background-color: white; */
   color: black;
   text-decoration: underline;
 }
 .menu_item3:hover {
-  background-color: white;
+  /* background-color: white; */
   color: black;
   text-decoration: underline;
 }
@@ -76,7 +76,7 @@
   height: 20px;
 }
 .dropbtn:hover {
-  background-color: white;
+  /* background-color: white; */
   text-decoration: underline;
 }
 .dropdown {
@@ -105,9 +105,6 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.dropdown:hover .dropbtn {
-  background-color: white;
-}
 .dropdown-content a:hover {
   text-decoration: underline;
   color: white;
@@ -116,15 +113,9 @@
   width: 100%;
   height: 500px;
 }
-/* .w3-content{
-    width: 100%;
-} */
 .Matches {
   width: 310px;
   height: 100px;
-  /* margin-left: 100px;  */
-  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
   margin-bottom: 0;
   margin-top: 20px;
 }
@@ -147,7 +138,6 @@
 }
 .results {
   display: block;
-  /* margin-top: 40px; */
 }
 .club {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
@@ -162,7 +152,6 @@
   width: 25px;
   height: 25px;
   color: white;
-  /* margin-right:50px; */
   display: flex;
   justify-content: center;
 }
@@ -171,7 +160,6 @@
   width: 25px;
   height: 25px;
   color: white;
-  /* margin-right:50px; */
   display: flex;
   justify-content: center;
 }
@@ -179,8 +167,6 @@
   width: 310px;
   height: 100px;
   margin-left: 100px;
-  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
   margin-top: 15px;
 }
 .last2 {
@@ -210,14 +196,12 @@
   top: 650px;
   width: 310px;
   margin-top: 250px;
-  /* margin-bottom: 530px;    */
 }
 .ratio3 {
   background-color: grey;
   width: 25px;
   height: 25px;
   color: white;
-  /* margin-right:50px; */
   display: flex;
   justify-content: center;
 }
@@ -226,7 +210,6 @@
   width: 25px;
   height: 25px;
   color: white;
-  /* margin-right:60px; */
   display: flex;
   justify-content: center;
 }
@@ -345,11 +328,6 @@ body {
   width: 100%;
   height: 100%;
 }
-/* img {
-  vertical-align: middle;
-} */
-
-/* Slideshow container */
 .slideshow-container {
   max-width: 1300px;
   height: 700px;
@@ -359,19 +337,6 @@ body {
   margin-bottom: 40px;
   margin-top: 40px;
 }
-
-/* Caption text */
-/* .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-} */
-
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -379,8 +344,6 @@ body {
   position: absolute;
   top: 0;
 }
-
-/* The dots/bullets/indicators */
 .dot {
   height: 15px;
   width: 15px;
@@ -394,8 +357,6 @@ body {
 .active {
   background-color: #717171;
 }
-
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -408,8 +369,6 @@ body {
     opacity: 1;
   }
 }
-
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {
     font-size: 11px;
@@ -417,24 +376,59 @@ body {
 }
 .mainfooter{
   background-color: #3D155F;  
-  height: 450px;
+  min-height: 450px;
+  display: flex;
+  width: 100%; 
+  padding-bottom: 30px;
+  margin-top: 30px;
 }
 .img1{
-  width: 400px;
+  width: 100%;
   color:#DF678C;
   margin-top: 50px;
-  margin-left: 50px;
-  /* display: inline-block; */
 }
-.icon{
+.icon10{
   border-radius: 15%;
   width:60px;
   margin-left: 50px;
 }
-.small-footer{
-  margin-left: 95px;
-  /* display: inline-block; */
-}
 .hello{
   display: inline-block;
+  vertical-align: top;
+  margin-top: 100px;
+  margin-left: 50px;
 }
+.part-footer{
+  display: inline-block ;
+  width: 350px;
+  margin-left: 30px;
+}
+  .hello1{
+    display: inline-block;
+    margin-left: 100px;
+  }
+
+  .item_container_footer {
+    width: 700px;
+    /* background-color: red; */
+  }
+
+  .item_container_footer_top {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .item_container_footer_bottom {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+  }
+
+  .hello1:nth-child(2) {
+    margin-left: 140px;
+  }
+  .map{
+    margin-top: 25px;
+  }

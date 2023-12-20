@@ -1,0 +1,52 @@
+Thẻ a: Liên kết (href)
+thẻ p: paragraph
+thẻ h: (h1 - h6)
+thẻ img: thuộc tính src
+Sao chép mã nhúng của video trên yt
+thẻ b: in đậm
+thẻ i: in nghiêng
+thẻ u: gạch chân
+
+thẻ span: thẻ inline => bề ngang của thẻ đó chỉ chiếm đến giới hạn nội dung trong thẻ
+Những thẻ mà có thuộc tính display: block => chiếm hết bề ngang màn hình
+
+Có 3 cách để css: 
+- C1: css trực tiếp trong thẻ mở
+- C2: css ở thẻ head
+- C3: tạo file mới để css
+
+Đặt thuộc tính class, id để phân biệt 2 thẻ có tên thẻ giống nhau
+
+.tên class
+#tên id
+
+color: màu chữ
+background-color: màu nền
+font-size: cỡ chữ
+width & height: chiều ngang và chiều cao
+
+// Day 2
+Display: inline => ko chỉnh dc chiều cao, ko chỉnh dc chiều ngang, ko chỉnh đc margin-top và margin-bottom
+Margin: Tạo khoảng trống xung quang 1 thẻ
+- Hướng margin-top, left, right, bottom
+
+- Cách viết tắt
+margin có 4 giá trị thì sẽ tương ứng như sau => margin: top right bottom left;
+margin có 3 giá trị thì sẽ tương ứng như sau => margin: top left-right bottom;
+margin có 2 giá trị thì sẽ tương ứng như sau => margin: top-bottom left-right;
+margin có 1 giá trị thì sẽ tương ứng như sau => 4 hướng như nhau
+
+Border: đường viền (width, color, style)
+
+border-radius: độ cong đường viền
+
+border: width color style;
+
+
+Padding: tạo khoảng trống giữa nội dung và đường viền
+Hướng css như margin:
+
+
+Tip: Căn chỉnh 1 đoạn text ra giữa khối box
+- text-align: center
+- line-height = chiều cao của box

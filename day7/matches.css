@@ -44,17 +44,17 @@
   margin-right: 30px;
 }
 .menu_item1:hover {
-  background-color: white;
+  /* background-color: white; */
   color: black;
   text-decoration: underline;
 }
 .menu_item2:hover {
-  background-color: white;
+  /* background-color: white; */
   color: black;
   text-decoration: underline;
 }
 .menu_item3:hover {
-  background-color: white;
+  /* background-color: white; */
   color: black;
   text-decoration: underline;
 }
@@ -76,7 +76,7 @@
   height: 20px;
 }
 .dropbtn:hover {
-  background-color: white;
+  /* background-color: white; */
   text-decoration: underline;
 }
 .dropdown {
@@ -105,9 +105,7 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.dropdown:hover .dropbtn {
-  background-color: white;
-}
+
 .dropdown-content a:hover {
   text-decoration: underline;
   color: white;
@@ -352,3 +350,60 @@ body {
       rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; 
       margin-top: 15px;
     } */
+    .mainfooter{
+      background-color: #3D155F;  
+      min-height: 450px;
+      display: flex;
+      width: 100%; 
+      padding-bottom: 30px;
+      margin-top: 30px;
+    }
+    .img1{
+      width: 100%;
+      color:#DF678C;
+      margin-top: 50px;
+    }
+    .icon10{
+      border-radius: 15%;
+      width:60px;
+      margin-left: 50px;
+    }
+    .hello{
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 100px;
+      margin-left: 50px;
+    }
+    .part-footer{
+      display: inline-block ;
+      width: 350px;
+      margin-left: 30px;
+    }
+      .hello1{
+        display: inline-block;
+        margin-left: 100px;
+      }
+    
+      .item_container_footer {
+        width: 700px;
+        /* background-color: red; */
+      }
+    
+      .item_container_footer_top {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+      }
+    
+      .item_container_footer_bottom {
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        /* justify-content: space-evenly; */
+      }
+      .hello1:nth-child(2) {
+        margin-left: 140px;
+      }
+      .map{
+        margin-top: 25px;
+      }
